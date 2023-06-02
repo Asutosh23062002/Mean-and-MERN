@@ -1,5 +1,5 @@
 #first{
-    background-color: rgb(229, 237, 239);
+    background-color: rgb(232, 229, 239);
     display: flex;
     display: grid;
     grid-template-columns:repeat(2,1fr);
@@ -11,7 +11,7 @@
     color: rgb(182, 139, 163);
    }
    #second{
-    background-color: rgb(165, 244, 244);
+    background-color: rgb(240, 244, 165);
     grid-template-rows:repeat(2,1fr);
     display: flex;
     flex-direction: row;

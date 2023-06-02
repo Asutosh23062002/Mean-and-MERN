@@ -1,0 +1,16 @@
+#showmovies{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+#showmovies img{
+    width: 200px;
+    height: 200px;
+    margin: 23px;
+    border: 12px solid brown;
+    object-fit: cover;
+    transition: all ease-in-out 70ms;
+}
+#showmovies img:hover{
+    transform: scale(1,2);
+}
